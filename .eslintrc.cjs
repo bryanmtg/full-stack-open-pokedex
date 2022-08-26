@@ -11,10 +11,12 @@ module.exports = {
     "plugin:react/recommended"
   ],
   "parserOptions": {
+    "parser": "@babel/eslint-parser",
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": 2018,
+    "requireConfigFile": false,
     "sourceType": "module"
   },
   "plugins": [
