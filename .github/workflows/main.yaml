@@ -16,3 +16,4 @@ jobs:
           heroku_app_name: "protected-island-64869" #Must be unique in Heroku
           heroku_email: "bryan@lands.design"
           healthcheck: "https://protected-island-64869.herokuapp.com/health"
+          checkstring: "ok"
